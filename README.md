@@ -121,6 +121,16 @@ I don't have to implement anything if I can simply run arbitrary codes.
 
 *- Famous last words before breaking everything*
 
+## Future Works
+
++ Allow different localizations for item search.
+  + This is possible but not implemented yet.
+  + Items are searched via the `item_data.json` file, which already have different localizations.
++ Item data search to show recipes etc.
+  + This is also possible but not implemented yet.
+  + The item API is already included in the the cog **cogs/search.py**, but nothing is done with it yet.
++ Host a bot myself so people can use the bot without having to host their own.
+
 ## Extra Background
 
 This is a stripped-down version of a bot I made for my guild, Pangolin Trading Company. As I haven't been on Albion for quite a while, I am releasing the source codes of the bot so that the community can improve upon or implement their own bots. The stripped functions are those that were specific to the guild. For example:
