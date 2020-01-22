@@ -36,7 +36,7 @@ Connected to:
 
 #### Invite your Assistant bot
 
-1. In your applicatoin page in Discord's developer portal, click on **OAuth2**.
+1. In your application page in Discord's developer portal, click on **OAuth2**.
 2. Under **Scopes** tick the **bot** box.
 3. Choose the **Bot Permissions** below as you like.
 4. Copy the link under **Scopes** once done, and open in your browser.
@@ -69,7 +69,7 @@ self.adminUsers = ['username#1234']
 
 ### Requirements
 
-+ Python 3.5.3 or higher
++ Python 3.6 or higher
 + [discord.py](https://github.com/Rapptz/discord.py)
   + The bot is written with discord.py, an async API.
 + [flask](https://flask.palletsprojects.com/en/1.1.x/)
