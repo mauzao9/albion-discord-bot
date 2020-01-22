@@ -76,6 +76,15 @@ self.adminUsers = ['username#1234']
   + flask is a micro web framework to host your bot.
 + [matplotlib](https://matplotlib.org/)
   + matplotlib is required to plot the 7 days historical prices.
+  
+  To install the required Python libraries, run the command:
+  ```
+  pip install discord.py flask matplotlib
+  ```
+  Or if you have `conda` installed:
+  ```
+  conda install discord.py flask matplotlib
+  ```
 
 ## Features
 
