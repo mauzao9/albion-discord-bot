@@ -240,10 +240,10 @@ class FetchPrice(commands.Cog):
         jDists = []
 
 	try:
-		with open('item_data.json', 'r', encoding='utf-8') as inFile:
-			data = json.load(inFile)
+            with open('item_data.json', 'r', encoding='utf-8') as inFile:
+		data = json.load(inFile)
 	except Exception as e:
-		print(e)
+            print(e)
 
         # Loop through each item in item_data.json
         # Store distance and item index of each item
